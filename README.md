@@ -137,7 +137,3 @@ creatoros-demo/
 Built at **Hackfluence 2026** by Manika Jain.
 
 ---
-
-## 📄 License
-
-MIT — feel free to build on this.
