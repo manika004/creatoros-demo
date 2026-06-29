@@ -11,7 +11,7 @@
 
 ## 🔗 Live Demo
 
-👉 **https://creatoros-demo.vercel.app/](https://creatoros-demo.vercel.app/)**
+👉 **[https://creatoros-demo.vercel.app/](https://creatoros-demo.vercel.app/)**
 
 | View | URL | What it shows |
 |------|-----|---------------|
