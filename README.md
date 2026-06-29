@@ -132,17 +132,6 @@ creatoros-demo/
 
 ---
 
-## 🗺️ Roadmap
-
-| Phase | Timeline | Features |
-|-------|----------|----------|
-| MVP (this) | Hackathon | Discovery, ROI prediction, creator dashboard |
-| v1.0 | Q3 2025 | Live Instagram + YouTube API integration, real auth |
-| v1.5 | Q1 2026 | AR try-on commerce, blockchain contracts, creator credit score |
-| v2.0 | Q3 2026 | AI video script generator, B2B data marketplace |
-
----
-
 ## 👥 Author
 
 Built at **Hackfluence 2026** by Manika Jain.
