@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --color-paper: #F2EDE4;
+  --color-paper-card: #FFFFFF;
+  --color-magenta: #C73E9C;
+  --color-magenta-dark: #A12D7E;
+  --color-ink: #2B2B2B;
+  --color-gold: #B8860B;
+  --color-teal: #0D9488;
+  --color-teal-light: #14B8A6;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-poppins), sans-serif;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(0,0,0,0.02) 0%, transparent 40%),
+    radial-gradient(circle at 80% 70%, rgba(0,0,0,0.02) 0%, transparent 40%);
+}
+
+/* Outlined chunky headline style, like the deck's "CREATOR OS" title */
+.headline-outline {
+  font-family: var(--font-bungee), sans-serif;
+  color: var(--color-paper);
+  -webkit-text-stroke: 2px var(--color-magenta);
+  text-stroke: 2px var(--color-magenta);
+  letter-spacing: 0.02em;
+}
+
+.headline-solid {
+  font-family: var(--font-bungee), sans-serif;
+  color: var(--color-magenta);
+  letter-spacing: 0.01em;
+}
+
+.handwritten {
+  font-family: var(--font-caveat), cursive;
+  color: var(--color-ink);
+}
+
+/* Torn paper / collage card */
+.paper-card {
+  background-color: var(--color-paper-card);
+  border-radius: 4px;
+  box-shadow: 0 4px 0 rgba(0,0,0,0.04), 0 8px 20px rgba(0,0,0,0.08);
+  position: relative;
+}
+
+.paper-card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.04);
+  pointer-events: none;
+}
+
+.tape-label {
+  background: #E8E0CC;
+  color: var(--color-ink);
+  font-family: var(--font-caveat), cursive;
+  font-weight: 600;
+  transform: rotate(-2deg);
+  box-shadow: 1px 2px 4px rgba(0,0,0,0.1);
+}
+
+.star-accent {
+  color: var(--color-gold);
+}
+
+.trust-badge-high {
+  background-color: #CCFBF1;
+  color: #115E59;
+  border: 1px solid #5EEAD4;
+}
+.trust-badge-mid {
+  background-color: #FEF3C7;
+  color: #92400E;
+  border: 1px solid #FCD34D;
+}
+.trust-badge-low {
+  background-color: #FFE4E6;
+  color: #9F1239;
+  border: 1px solid #FDA4AF;
+}

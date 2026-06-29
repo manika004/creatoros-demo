@@ -1,0 +1,16 @@
+{
+  "creatorId": 1,
+  "totalEarnings": 287500,
+  "monthlyData": [
+    { "month": "Jan", "youtube": 12000, "instagram": 18000, "brandDeals": 25000 },
+    { "month": "Feb", "youtube": 14500, "instagram": 21000, "brandDeals": 15000 },
+    { "month": "Mar", "youtube": 13200, "instagram": 19500, "brandDeals": 40000 },
+    { "month": "Apr", "youtube": 16800, "instagram": 24000, "brandDeals": 30000 },
+    { "month": "May", "youtube": 15100, "instagram": 22500, "brandDeals": 55000 }
+  ],
+  "platformSplit": [
+    { "name": "Brand Deals", "value": 165000, "color": "#0D9488" },
+    { "name": "Instagram", "value": 73000, "color": "#E1306C" },
+    { "name": "YouTube", "value": 49500, "color": "#FF0000" }
+  ]
+}
